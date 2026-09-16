@@ -1,0 +1,6 @@
+{
+  "name": "AI Customer Support Agent (Hiver Take-Home)",
+  "description": "Grounded AI customer support agent with intent classification, historical retrieval, Groq generation, escalation triage, and complete evaluation harness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

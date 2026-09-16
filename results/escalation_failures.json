@@ -1,0 +1,490 @@
+[
+  {
+    "id": "gold_004",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Courier marked delivery attempted at 2 PM, but I work from home and my ring buzzer never rang.",
+    "gold_reason": "Failed attempt dispute requiring driver dispatch investigation.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_013",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Driver claims gate code 1234 did not work, but that is the active gate code.",
+    "gold_reason": "Repeated gate failure risking package return to warehouse.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_016",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Order #113-9821730 was cancelled by Amazon due to shipping damage in transit. Where is my replacement?",
+    "gold_reason": "Automatic transit cancellation requiring re-order / human replacement check.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_021",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Tracking says delivered to mailroom, but our building does not have a mailroom.",
+    "gold_reason": "Misdelivery / incorrect scan requiring human carrier review.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_022",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Package was routed to the wrong state! Shipped to Florida instead of California.",
+    "gold_reason": "Severe sorting misdirection requiring rerouting or replacement.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_025",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Driver marked customer refused delivery, but I never spoke to any driver!",
+    "gold_reason": "Disputed false delivery refusal scan.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_027",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Delivery photo clearly shows a white door and green mat. My building has black doors and concrete.",
+    "gold_reason": "Photographic evidence of wrong delivery location.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_028",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Package has been marked delivered for 48 hours. Searched entire neighborhood. Missing.",
+    "gold_reason": "Missing package confirmed after 36h+ search window.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_029",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Porch pirate stole package. Ring doorbell footage recorded suspect at 3:15 PM.",
+    "gold_reason": "Theft incident requiring police report acknowledgement and replacement.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_030",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Tracking says handed directly to resident, but everyone in my house was at work.",
+    "gold_reason": "False handoff scan; package unaccounted for.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_032",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Amazon locker says locker empty when I entered my pickup code!",
+    "gold_reason": "Locker hardware / fulfillment failure.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_034",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Neighbor brought over an opened package that was addressed to me, but contents were missing.",
+    "gold_reason": "Tampered / looted delivery requiring investigation.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_036",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Package marked delivered to rear porch, but my property has no rear access.",
+    "gold_reason": "Physical impossibility in delivery location scan.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_037",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Order #114-9988210 was high value jewelry (00) marked delivered with no signature collected.",
+    "gold_reason": "High-value signature-required shipment missing.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_039",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp Can I report a package stolen online without calling customer service?",
+    "gold_reason": "Self-service missing package portal guidance.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_040",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Package left in lobby was taken by another resident per CCTV.",
+    "gold_reason": "Building theft requiring replacement assistance.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_041",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Tracking says delivered to receptionist Jane, but our company has no employee named Jane.",
+    "gold_reason": "Unknown receiver name on corporate delivery.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_043",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Driver left package on public sidewalk next to busy road and it was gone in 10 mins.",
+    "gold_reason": "Negligent drop-off location resulting in loss.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_047",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp App says delivered to garage via Amazon Key, but garage door never opened.",
+    "gold_reason": "Amazon Key smart home delivery malfunction.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_048",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Driver says package delivered to dog house in backyard, but dog chewed the box.",
+    "gold_reason": "Improper drop location causing damage/loss.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_049",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp How long do I have to wait before Amazon will replace a lost package?",
+    "gold_reason": "Explanation of 24-36 hour lost parcel policy.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_050",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Missing parcel had custom engraved anniversary gift that cannot be reordered in time.",
+    "gold_reason": "High emotional impact customized item lost.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_052",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp I returned an iPad on Nov 2nd, return tracking delivered Nov 5th, still no refund on Nov 24th.",
+    "gold_reason": "Refund delayed beyond standard SLA (>14 days) on high-value item.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_056",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp I was charged a 5 restocking fee on a return that was defective upon arrival.",
+    "gold_reason": "Disputed restocking fee on defective goods.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_057",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp My return QR code expired because I got sick. How do I get a new one?",
+    "gold_reason": "Instructions on reprinting/re-generating return QR code.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_058",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Return center claims they received an empty box and denied my 00 refund.",
+    "gold_reason": "Warehouse denial / dispute of returned goods.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_060",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Returned two separate orders in the same box with one label, now only one refunded.",
+    "gold_reason": "Consolidated return mismatch requiring manual warehouse audit.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_062",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp I initiated a return 30 days ago but forgot to drop it off. Is the label still valid?",
+    "gold_reason": "Return label expiration policy.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_069",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Amazon refunded me 0 less than what I paid on invoice #112-909281.",
+    "gold_reason": "Discrepancy in refund amount calculation.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_075",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Return pickup by UPS was never scheduled by Amazon as promised.",
+    "gold_reason": "Carrier pickup failure requiring rebooking.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_079",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Lithium battery in cordless drill started smoking and swelling upon opening.",
+    "gold_reason": "CRITICAL SAFETY HAZARD: Defective swollen battery.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_081",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Ordered brand new laptop, but screen has scratches and previous user account was logged in.",
+    "gold_reason": "Used sold as new on high value PC requiring investigation.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_084",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp Do I have to return an item that arrived completely shattered?",
+    "gold_reason": "Broken glass return exemption guidance.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_090",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp Item expired 6 months ago according to printed expiration date on carton.",
+    "gold_reason": "Expired grocery item instant replacement/refund flow.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_091",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp TV arrived with cracked screen that only shows black lines when turned on.",
+    "gold_reason": "Large freight broken television requiring scheduled carrier pickup.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_094",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Liquid bleach bottle burst in box, bleached my personal rug when I brought it inside.",
+    "gold_reason": "Property damage claim resulting from hazardous packaging failure.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_096",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Mattress arrived with black mold spots on the fabric inside sealed plastic.",
+    "gold_reason": "Health hazard contaminated item requiring disposal refund.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_098",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Brand new camera lens has internal dust particles.",
+    "gold_reason": "High precision optics defect requiring authorized replacement.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_105",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Promo code FALL20 did not apply to qualifying items in my shopping cart.",
+    "gold_reason": "Promotional discount validation failure requiring manual credit.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_107",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Charged for Prime on a credit card that I removed from my wallet months ago.",
+    "gold_reason": "Backup payment method dispute on removed card.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_109",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp I cancelled Prime yesterday but today I was charged 4.99.",
+    "gold_reason": "Billing charge after recorded cancellation date.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_111",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp My bank charged an overdraft fee because Amazon attempted Prime charge 3 times.",
+    "gold_reason": "Consequential banking overdraft fee claim requiring supervisor review.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_113",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Charged for Amazon Music Unlimited family plan when I only authorized single plan.",
+    "gold_reason": "Subscription tier dispute requiring tier adjustment and credit.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_116",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Signed up for annual Prime promo with 0 gift card bonus, gift card never sent.",
+    "gold_reason": "Missing promotional gift card incentive.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_118",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp My Prime delivery guarantee was missed 4 times this month, what is my compensation?",
+    "gold_reason": "Repeated Prime SLA delivery guarantee compensation request.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_120",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Card was charged 9 for Audible without my consent.",
+    "gold_reason": "Unauthorized subsidiary subscription dispute.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_123",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp My credit card expired, will my Prime membership cancel immediately?",
+    "gold_reason": "Grace period and backup payment retry policy.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "High-risk dispute, potential property/account impact, or SLA delay requiring human specialist review."
+  },
+  {
+    "id": "gold_131",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Kindle Paperwhite screen has permanent vertical dead pixel lines.",
+    "gold_reason": "Display hardware failure requiring warranty exchange.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_134",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp How do I set up parental controls on my child's Fire HD Kids tablet?",
+    "gold_reason": "Amazon Kids parental controls setup guide.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "Deterministic safety rule triggered by risk indicator: 'fire'."
+  },
+  {
+    "id": "gold_136",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Echo Show camera privacy shutter is physically jammed closed.",
+    "gold_reason": "Physical mechanism defect under warranty.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_137",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Why did the Kindle store remove a book I previously purchased and paid for?",
+    "gold_reason": "Publisher digital rights withdrawal dispute.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_141",
+    "type": "FALSE_POSITIVE_OVER_ESCALATION",
+    "customer_message": "@AmazonHelp How to pair bluetooth headphones with Fire TV Stick?",
+    "gold_reason": "Bluetooth pairing instructions.",
+    "agent_decision": "ESCALATE_TO_HUMAN",
+    "agent_reason": "Deterministic safety rule triggered by risk indicator: 'fire'."
+  },
+  {
+    "id": "gold_144",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Kindle battery drains from 100% to 0% in less than 2 hours.",
+    "gold_reason": "Severe battery degradation under warranty.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_147",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Echo Studio speaker makes loud buzzing and popping electrical noise.",
+    "gold_reason": "Audio amplifier electrical defect.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_156",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Someone in another state logged into my Prime Video profile and made watchlists.",
+    "gold_reason": "Unauthorized session breach requiring global sign-out and password reset.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_159",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Credit card on file was used for fraudulent Amazon orders on an unknown account.",
+    "gold_reason": "Credit card fraud investigation escalation.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_162",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Employee who left my business still has access to our Amazon Business account.",
+    "gold_reason": "Enterprise corporate account permission override.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_164",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Account suspended because algorithm thought I had linked accounts.",
+    "gold_reason": "Algorithmic false positive account suspension appeal.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_166",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Someone placed an order using archived orders feature to hide it from me.",
+    "gold_reason": "Suspected domestic unauthorized access.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_171",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp Identity verification document upload keeps failing with error 500.",
+    "gold_reason": "KYC compliance technical failure requiring manual submission.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  },
+  {
+    "id": "gold_173",
+    "type": "FALSE_NEGATIVE_MISSED_RISK",
+    "customer_message": "@AmazonHelp I received an email stating an unrecognized login from Russia at 3 AM.",
+    "gold_reason": "Foreign unauthorized IP login requiring account freeze and security audit.",
+    "agent_decision": "AUTO_HANDLE",
+    "agent_reason": "Standard self-service guidance and link resolution path."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  "tests/test_agent.py::TestCustomerSupportAgent::test_process_message_structure",
+  "tests/test_agent.py::TestEscalationEvaluator::test_confidence_threshold_fallback",
+  "tests/test_agent.py::TestEscalationEvaluator::test_routine_query_auto_handle",
+  "tests/test_agent.py::TestEscalationEvaluator::test_safety_override_account_hacked",
+  "tests/test_agent.py::TestEscalationEvaluator::test_safety_override_medical_emergency",
+  "tests/test_agent.py::TestEscalationEvaluator::test_safety_override_repeated_failures",
+  "tests/test_agent.py::TestGroqClient::test_json_repair_fallback_on_garbage",
+  "tests/test_agent.py::TestGroqClient::test_json_repair_logic",
+  "tests/test_agent.py::TestGroqClient::test_mock_generation_returns_valid_json",
+  "tests/test_agent.py::TestGroqClient::test_offline_initialization_without_key",
+  "tests/test_agent.py::TestHistoricalRetriever::test_corpus_loaded",
+  "tests/test_agent.py::TestHistoricalRetriever::test_evidence_formatting",
+  "tests/test_agent.py::TestHistoricalRetriever::test_retrieve_top_k",
+  "tests/test_agent.py::TestIntentClassifier::test_classify_security_inquiry",
+  "tests/test_agent.py::TestIntentClassifier::test_classify_tracking_inquiry",
+  "tests/test_agent.py::TestIntentClassifier::test_taxonomy_loaded",
+  "tests/test_agent.py::TestLeakagePrevention::test_shingle_jaccard_distinct",
+  "tests/test_agent.py::TestLeakagePrevention::test_shingle_jaccard_identical"
+]

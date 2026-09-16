@@ -1,0 +1,143 @@
+{
+  "brand": "AmazonHelp",
+  "source_dataset": "thoughtvector/customer-support-on-twitter",
+  "taxonomy_version": "1.0.0",
+  "intents": [
+    {
+      "intent": "delivery_delay_and_tracking",
+      "display_name": "Delivery Delay & Tracking",
+      "definition": "Customer inquiring about late deliveries, package tracking updates, carrier delays, or estimated arrival times.",
+      "examples": [
+        "My package was supposed to arrive yesterday and tracking has not updated.",
+        "Where is my Prime order #112-892341? It's 2 days late.",
+        "Tracking status says in transit for 4 days with no new scan.",
+        "Expected delivery was 8 PM tonight but carrier still hasn't delivered."
+      ],
+      "approximate_frequency": 0.26,
+      "why_it_matters": "Highest volume inquiry. Timely tracking reassurance and courier buffer guidance directly prevent repetitive contact and customer frustration.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Standard transit delays within normal courier buffer window, requesting general tracking link or how to check delivery status.",
+        "escalate_criteria": "Delay exceeds 48 hours past guaranteed delivery date, carrier reported lost, or perishable/urgent medication shipment."
+      }
+    },
+    {
+      "intent": "missing_or_stolen_package",
+      "display_name": "Missing or Stolen Package",
+      "definition": "Customer reports order is marked 'Delivered' in tracking or photo proof, but physical parcel cannot be located anywhere.",
+      "examples": [
+        "Tracking says delivered to front porch 20 mins ago, but nothing is outside my door.",
+        "Delivery photo shows a completely different apartment building door.",
+        "Driver marked package as handed to resident but no one was home.",
+        "I checked around the garage and with neighbors, the package is missing."
+      ],
+      "approximate_frequency": 0.14,
+      "why_it_matters": "High emotional distress and immediate financial risk. Requires prompt check of safe drop locations followed by courier investigation.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Package marked delivered within past 1-2 hours (requesting customer to check safe spots/neighbors as drivers sometimes mark early).",
+        "escalate_criteria": "Customer already checked all safe locations, delivery photo confirms wrong address, or 24 hours have passed since delivery scan."
+      }
+    },
+    {
+      "intent": "return_and_refund_status",
+      "display_name": "Return & Refund Status",
+      "definition": "Customer inquiries regarding return window rules, generating return shipping labels/drop-off QR codes, or status of pending refunds for returned items.",
+      "examples": [
+        "I dropped off my return at UPS 5 days ago, when will my refund hit my card?",
+        "How do I generate a return label for an unopened item?",
+        "My return was received at the fulfillment center last week but refund still pending.",
+        "Can I return an item after the 30-day holiday return window?"
+      ],
+      "approximate_frequency": 0.18,
+      "why_it_matters": "Direct financial impact. Customers need clarity on standard 3-5 business day banking processing times or return authorization steps.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Explaining standard return steps, drop-off locations (UPS/Kohl's/Whole Foods), or standard refund timelines.",
+        "escalate_criteria": "Refund has not posted after 7+ business days from confirmed warehouse delivery, or return label generation fails repeatedly."
+      }
+    },
+    {
+      "intent": "damaged_or_incorrect_item",
+      "display_name": "Damaged or Incorrect Item",
+      "definition": "Customer received an item that is broken, defective, expired, or completely different from the purchased product listing.",
+      "examples": [
+        "The blender arrived with shattered glass and oil leaking everywhere.",
+        "I ordered men's size 11 running shoes but received women's size 6 sandals.",
+        "The box was crushed in transit and the internal product is broken.",
+        "Received an empty manufacturer box with the seal cut open."
+      ],
+      "approximate_frequency": 0.12,
+      "why_it_matters": "Fulfillment failure eroding brand trust. Requires replacement authorization or immediate return exemption for damaged goods.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Directing customer to the Online Returns Center replacement option for routine wrong sizes or mildly defective items.",
+        "escalate_criteria": "High-value item broken, hazardous chemical leak, missing contents inside empty sealed parcel, or repeat replacement defect."
+      }
+    },
+    {
+      "intent": "prime_membership_and_billing",
+      "display_name": "Prime Membership & Billing",
+      "definition": "Questions regarding unauthorized membership renewals, subscription fee disputes, promotional discount code errors, or membership cancellation.",
+      "examples": [
+        "I was charged $139 for an annual Prime membership that I never authorized.",
+        "How do I cancel my Prime student free trial so I don't get billed?",
+        "My gift card balance was not applied towards my checkout total.",
+        "Why did my monthly subscription fee increase without notification?"
+      ],
+      "approximate_frequency": 0.11,
+      "why_it_matters": "Disputed charges create high churn and chargeback risks. Requires clear self-service cancellation guidance or billing specialist review.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Guiding user to 'Manage Prime Membership' page or explaining prorated trial cancellation policy.",
+        "escalate_criteria": "Disputed unknown card charge, recurring unauthorized billing, or promo code failure on completed transaction requiring manual credit."
+      }
+    },
+    {
+      "intent": "digital_services_and_devices",
+      "display_name": "Digital Services & Devices",
+      "definition": "Technical issues concerning Kindle e-readers, Prime Video playback errors, Fire TV app crashes, Alexa device connectivity, or Music streaming.",
+      "examples": [
+        "Prime Video gives error code 5004 whenever I try to stream on my smart TV.",
+        "My Kindle Paperwhite won't sync newly purchased books over Wi-Fi.",
+        "Alexa keeps disconnecting from my home Wi-Fi network every morning.",
+        "Fire Stick remote stopped pairing even after replacing batteries."
+      ],
+      "approximate_frequency": 0.09,
+      "why_it_matters": "Customer is blocked from consuming digital media they paid for. Fast troubleshooting steps can resolve high percentage of device issues.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Standard device restart, cache clearing, app reinstallation, or Wi-Fi reconnect steps.",
+        "escalate_criteria": "Hardware failure, persistent DRM/licensing authentication error, or defective device still under hardware warranty."
+      }
+    },
+    {
+      "intent": "account_access_and_security",
+      "display_name": "Account Access & Security",
+      "definition": "Inability to sign in, two-factor authentication (2FA/OTP) failures, unauthorized account changes, phishing notices, or compromised accounts.",
+      "examples": [
+        "I received a login alert from Russia and someone changed my shipping address!",
+        "I'm not receiving the two-step verification SMS code to log into my account.",
+        "My account has been locked due to unusual activity and I cannot reach anyone.",
+        "Someone placed 3 large gift card orders on my account without my knowledge."
+      ],
+      "approximate_frequency": 0.06,
+      "why_it_matters": "Critical customer security and liability risk. Strict protocols apply regarding personal data protection.",
+      "escalation_policy": {
+        "auto_handle_criteria": "General guidance on standard password reset self-service links if no suspicious activity reported.",
+        "escalate_criteria": "MANDATORY ESCALATION: Any mention of compromised account, unauthorized orders, fraudulent password change, or locked account."
+      }
+    },
+    {
+      "intent": "general_product_or_policy_inquiry",
+      "display_name": "General Product & Policy Inquiry",
+      "definition": "General inquiries regarding shipping coverage, warranty terms, gift card redemption rules, packaging options, or restock dates.",
+      "examples": [
+        "Do you ship electronics and books to APO/FPO military addresses?",
+        "Can I combine two different Amazon gift cards on one checkout?",
+        "Does this renewed iPad include the original Apple warranty?",
+        "Is gift wrapping available for oversized furniture items?"
+      ],
+      "approximate_frequency": 0.04,
+      "why_it_matters": "Pre-purchase or general informational questions that can be reliably answered from public knowledge bases without human agent cost.",
+      "escalation_policy": {
+        "auto_handle_criteria": "Standard public policy explanations (shipping destinations, gift card terms, packaging).",
+        "escalate_criteria": "Complex cross-border customs restrictions, legal disputes, or requests requiring private seller contracts."
+      }
+    }
+  ]
+}

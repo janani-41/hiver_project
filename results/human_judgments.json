@@ -1,0 +1,58 @@
+{
+  "gold_001": {
+    "relevance": 5,
+    "groundedness": 5,
+    "correctness": 5,
+    "notes": "Clear tracking link and DM link",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_002": {
+    "relevance": 5,
+    "groundedness": 5,
+    "correctness": 4,
+    "notes": "Helpful self-service guidance",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_003": {
+    "relevance": 4,
+    "groundedness": 4,
+    "correctness": 4,
+    "notes": "Appropriate escalation rationale",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_004": {
+    "relevance": 5,
+    "groundedness": 5,
+    "correctness": 5,
+    "notes": "Accurate cancellation instructions",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_005": {
+    "relevance": 4,
+    "groundedness": 5,
+    "correctness": 4,
+    "notes": "Security-conscious response",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_006": {
+    "relevance": 5,
+    "groundedness": 5,
+    "correctness": 5,
+    "notes": "Good refund timeline stated",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_007": {
+    "relevance": 3,
+    "groundedness": 4,
+    "correctness": 3,
+    "notes": "Generic reply",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  },
+  "gold_008": {
+    "relevance": 5,
+    "groundedness": 5,
+    "correctness": 5,
+    "notes": "Fast routing to human agent",
+    "updated_at": "2026-09-15T15:45:58.815Z"
+  }
+}

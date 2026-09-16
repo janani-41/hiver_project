@@ -1,0 +1,10 @@
+{
+  "brand": "AmazonHelp",
+  "raw_records_read": 1500,
+  "unique_records": 1500,
+  "train_corpus_size": 1125,
+  "eval_pool_size": 49,
+  "leaked_records_discarded": 326,
+  "leakage_threshold": 0.7,
+  "random_seed": 42
+}

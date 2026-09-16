@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-15 15:27:07",
+  "evaluation_samples": 200,
+  "execution_time_seconds": 0.45,
+  "intent_classification": {
+    "accuracy": 0.615,
+    "macro_precision": 0.7265,
+    "macro_recall": 0.615,
+    "macro_f1": 0.6281
+  },
+  "escalation_triage": {
+    "accuracy": 0.695,
+    "precision": 0.7632,
+    "recall": 0.358,
+    "f1": 0.4874,
+    "false_positive_rate_unnecessary_escalations": 0.0756,
+    "false_negative_rate_missed_critical_escalations": 0.642,
+    "true_positives": 29,
+    "false_positives": 9,
+    "true_negatives": 110,
+    "false_negatives": 52
+  },
+  "retrieval_performance": {
+    "top1_intent_match_accuracy": 0.59,
+    "top3_intent_match_accuracy": 0.67,
+    "average_cosine_similarity": 0.2003
+  },
+  "response_generation_quality": {
+    "mean_relevance": 5.0,
+    "mean_groundedness": 5.0,
+    "mean_correctness": 5.0,
+    "mean_helpfulness": 4.0,
+    "mean_unsupported_claims": 5.0,
+    "overall_average_score": 4.8,
+    "hallucination_rate": 0.0,
+    "acceptable_pct": 100.0,
+    "needs_revision_pct": 0.0,
+    "rejected_pct": 0.0
+  },
+  "escalation_failures_count": 61
+}

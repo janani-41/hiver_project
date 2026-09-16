@@ -1,0 +1,492 @@
+[
+  {
+    "id": "conv_01355",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Instant Pot Duo ($174.99) and you sent me a box of dog food! Order #114-6556783-1561627. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00557",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Prime Video keeps giving error code PL-01 when playing movies on my Roku Ultra. How do I fix this?",
+    "historical_response": "Error PL-01 is typically resolved by restarting your device and router, or clearing the Prime Video app cache. You can find detailed troubleshooting steps here: https://amzn.to/prime-video-help ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard streaming cache/reboot troubleshooting steps."
+  },
+  {
+    "id": "conv_01435",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Kindle Paperwhite ($513.99) and you sent me a box of dog food! Order #112-2840251-2119044. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_01451",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Kindle Paperwhite ($307.50) and you sent me a box of dog food! Order #113-8485197-7000321. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^MK",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00212",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Keurig Coffee Maker at Kohl's Drop-off on Monday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00016",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp My Kindle Fire TV 4K screen is completely frozen on the waking up screen. Holding down the power button for 40 seconds does not reboot it.",
+    "historical_response": "We're sorry to hear about your Kindle! Please connect it to a wall charger for at least 30 minutes, then attempt the 40-second power button hold again. If it remains frozen, DM us for warranty options: https://amzn.to/dm ^KL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard Kindle battery recovery protocol; escalates only if hardware unresponsive."
+  },
+  {
+    "id": "conv_00619",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Logitech Wireless Mouse at Whole Foods Market customer desk on Tuesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^RG",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_01293",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Kindle Paperwhite at Amazon Locker on Saturday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^KL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00271",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Liquid soap bottle leaked inside the box and ruined the electronics (Dyson V8 Vacuum) that were shipped together in the same box!",
+    "historical_response": "We're so sorry for this shipping error! Please send us a direct message with photos of the damaged package and your order ID so we can issue a full replacement for all affected items: https://amzn.to/dm ^DL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Cross-item hazardous spill damaging electronics; human damage assessment required."
+  },
+  {
+    "id": "conv_00150",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp The return window for my Instant Pot Duo closed 3 days ago because I was hospitalized. Can an exception be made to return it?",
+    "historical_response": "We hope you are recovering well. While the online return portal locks after the return window, please send us a DM with your order ID so a customer care supervisor can review your case for an exception: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Policy exception request requiring human supervisor override."
+  },
+  {
+    "id": "conv_00204",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Oral-B Electric Toothbrush ($30.50) and you sent me a box of cat litter! Order #111-4096671-8708446. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00504",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Fitbit Charge 6 at Amazon Locker on Tuesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00481",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Kindle Paperwhite ($539.00) and you sent me a box of dog food! Order #112-8041344-9973952. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00380",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Oral-B Electric Toothbrush ($135.50) and you sent me a box of pack of socks! Order #111-4921984-5620006. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00164",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp The return window for my Dyson V8 Vacuum closed 3 days ago because I was hospitalized. Can an exception be made to return it?",
+    "historical_response": "We hope you are recovering well. While the online return portal locks after the return window, please send us a DM with your order ID so a customer care supervisor can review your case for an exception: https://amzn.to/dm ^DL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Policy exception request requiring human supervisor override."
+  },
+  {
+    "id": "conv_00102",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I don't have a working printer at home. Can I return my Ninja Air Fryer without printing a return label?",
+    "historical_response": "Yes! You can choose 'UPS Drop-off - No Box or Label Needed' or 'Kohl's Drop-off' when initiating the return in Your Orders. They will simply scan a QR code from your phone: https://amzn.to/return-center ^RG",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Self-service instructions for mobile QR code label-free returns."
+  },
+  {
+    "id": "conv_00996",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Keurig Coffee Maker at Amazon Locker on Thursday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00030",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp My Fire TV Stick keeps restarting in a continuous boot loop showing only the logo. I bought it 2 months ago.",
+    "historical_response": "We're sorry your Fire TV Stick is stuck in a boot loop. Since standard power cycling did not work and the device is under warranty, please DM us your serial number so we can process a warranty replacement: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Persistent hardware bootloop within warranty period requiring RMA exchange."
+  },
+  {
+    "id": "conv_00287",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp My Kindle Roku Ultra screen is completely frozen on the waking up screen. Holding down the power button for 40 seconds does not reboot it.",
+    "historical_response": "We're sorry to hear about your Kindle! Please connect it to a wall charger for at least 30 minutes, then attempt the 40-second power button hold again. If it remains frozen, DM us for warranty options: https://amzn.to/dm ^DL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard Kindle battery recovery protocol; escalates only if hardware unresponsive."
+  },
+  {
+    "id": "conv_00509",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Apple AirPods Pro ($400.99) and you sent me a box of coffee mugs! Order #111-5046646-3474674. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^TB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00193",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Liquid soap bottle leaked inside the box and ruined the electronics (Keurig Coffee Maker) that were shipped together in the same box!",
+    "historical_response": "We're so sorry for this shipping error! Please send us a direct message with photos of the damaged package and your order ID so we can issue a full replacement for all affected items: https://amzn.to/dm ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Cross-item hazardous spill damaging electronics; human damage assessment required."
+  },
+  {
+    "id": "conv_00389",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Apple AirPods Pro at Kohl's Drop-off on Wednesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00064",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp My Amazon account was suspended for 'unusual activity' and my orders were cancelled. I have $450 in gift balance that I cannot access!",
+    "historical_response": "We understand your concern regarding your suspended account and balance. Please DM us your registered email so we can route your case to our Account Specialist team for priority review: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding account access and security.",
+    "intent": "account_access_and_security",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Account suspension with trapped funds requiring human account specialist review."
+  },
+  {
+    "id": "conv_00014",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Prime Video keeps giving error code PL-01 when playing movies on my Fire TV 4K. How do I fix this?",
+    "historical_response": "Error PL-01 is typically resolved by restarting your device and router, or clearing the Prime Video app cache. You can find detailed troubleshooting steps here: https://amzn.to/prime-video-help ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard streaming cache/reboot troubleshooting steps."
+  },
+  {
+    "id": "conv_01205",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Logitech Wireless Mouse ($462.00) and you sent me a box of pack of socks! Order #112-2969319-2561766. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^MK",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00411",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp The return window for my Sony Wireless Headphones closed 3 days ago because I was hospitalized. Can an exception be made to return it?",
+    "historical_response": "We hope you are recovering well. While the online return portal locks after the return window, please send us a DM with your order ID so a customer care supervisor can review your case for an exception: https://amzn.to/dm ^RG",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Policy exception request requiring human supervisor override."
+  },
+  {
+    "id": "conv_01384",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Fitbit Charge 6 at Amazon Locker on Wednesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00175",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Liquid soap bottle leaked inside the box and ruined the electronics (Oral-B Electric Toothbrush) that were shipped together in the same box!",
+    "historical_response": "We're so sorry for this shipping error! Please send us a direct message with photos of the damaged package and your order ID so we can issue a full replacement for all affected items: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Cross-item hazardous spill damaging electronics; human damage assessment required."
+  },
+  {
+    "id": "conv_00490",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I don't have a working printer at home. Can I return my LEGO Star Wars Set without printing a return label?",
+    "historical_response": "Yes! You can choose 'UPS Drop-off - No Box or Label Needed' or 'Kohl's Drop-off' when initiating the return in Your Orders. They will simply scan a QR code from your phone: https://amzn.to/return-center ^TB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Self-service instructions for mobile QR code label-free returns."
+  },
+  {
+    "id": "conv_00039",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a LEGO Star Wars Set ($631.99) and you sent me a box of dog food! Order #114-4179476-6583592. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_01000",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Kindle Paperwhite at Kohl's Drop-off on Saturday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^KL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_01226",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Dyson V8 Vacuum ($540.00) and you sent me a box of cat litter! Order #111-4493212-2404547. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00001",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp How do I share my Prime shipping benefits with my spouse without sharing my payment cards?",
+    "historical_response": "You can share Prime shipping benefits via Amazon Household! Both adults maintain separate accounts and payment methods. Set it up here: https://amzn.to/amazon-household ^TB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding prime membership and billing.",
+    "intent": "prime_membership_and_billing",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Educational guidance on Amazon Household feature."
+  },
+  {
+    "id": "conv_00601",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Prime Video keeps giving error code PL-01 when playing movies on my Samsung Smart TV. How do I fix this?",
+    "historical_response": "Error PL-01 is typically resolved by restarting your device and router, or clearing the Prime Video app cache. You can find detailed troubleshooting steps here: https://amzn.to/prime-video-help ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding digital services and devices.",
+    "intent": "digital_services_and_devices",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard streaming cache/reboot troubleshooting steps."
+  },
+  {
+    "id": "conv_01498",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Ceramic Dinnerware Set ($105.00) and you sent me a box of plastic hangers! Order #111-6390965-7607549. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00023",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp The promo code 'SAVEHOLIDAY' from your promotional email is giving an error saying 'Promotion has ended' even though the email said valid through Friday.",
+    "historical_response": "We'd like to check this promo code for you! Please send us a direct message with a screenshot of the email and the item in your cart: https://amzn.to/dm ^DL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding prime membership and billing.",
+    "intent": "prime_membership_and_billing",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Promotional code dispute requiring customer care manual credit."
+  },
+  {
+    "id": "conv_00313",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I ordered a Oral-B Electric Toothbrush ($546.99) and you sent me a box of pack of socks! Order #114-3858080-9325565. This is a totally different item!",
+    "historical_response": "We sincerely apologize for this warehouse mix-up! Please DM us your order number so our fulfillment escalation team can investigate the inventory error and dispatch the correct item immediately: https://amzn.to/dm ^RG",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Severe inventory mispick requiring warehouse audit and expedited replacement."
+  },
+  {
+    "id": "conv_00283",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Apple AirPods Pro at Kohl's Drop-off on Saturday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_01404",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Fitbit Charge 6 at Amazon Locker on Monday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_01493",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Keurig Coffee Maker at Kohl's Drop-off on Saturday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^KL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00292",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I don't have a working printer at home. Can I return my Anker Portable Charger without printing a return label?",
+    "historical_response": "Yes! You can choose 'UPS Drop-off - No Box or Label Needed' or 'Kohl's Drop-off' when initiating the return in Your Orders. They will simply scan a QR code from your phone: https://amzn.to/return-center ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Self-service instructions for mobile QR code label-free returns."
+  },
+  {
+    "id": "conv_00206",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp The return window for my Apple AirPods Pro closed 3 days ago because I was hospitalized. Can an exception be made to return it?",
+    "historical_response": "We hope you are recovering well. While the online return portal locks after the return window, please send us a DM with your order ID so a customer care supervisor can review your case for an exception: https://amzn.to/dm ^KL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Policy exception request requiring human supervisor override."
+  },
+  {
+    "id": "conv_00940",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Kindle Paperwhite at Amazon Locker on Tuesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^SJ",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00735",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Liquid soap bottle leaked inside the box and ruined the electronics (Instant Pot Duo) that were shipped together in the same box!",
+    "historical_response": "We're so sorry for this shipping error! Please send us a direct message with photos of the damaged package and your order ID so we can issue a full replacement for all affected items: https://amzn.to/dm ^AB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Cross-item hazardous spill damaging electronics; human damage assessment required."
+  },
+  {
+    "id": "conv_00013",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I don't have a working printer at home. Can I return my Instant Pot Duo without printing a return label?",
+    "historical_response": "Yes! You can choose 'UPS Drop-off - No Box or Label Needed' or 'Kohl's Drop-off' when initiating the return in Your Orders. They will simply scan a QR code from your phone: https://amzn.to/return-center ^DL",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Self-service instructions for mobile QR code label-free returns."
+  },
+  {
+    "id": "conv_01330",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Kindle Paperwhite at The UPS Store on Saturday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^JW",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  },
+  {
+    "id": "conv_00054",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Does Amazon Logistics deliver on Sundays in Miami? My tracking says arriving Sunday by 9pm.",
+    "historical_response": "Yes! Amazon Logistics delivers 7 days a week, including Sundays in most metropolitan areas. You can follow the driver's stop countdown in the Amazon app once out for delivery: https://amzn.to/your-orders ^RG",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding delivery delay and tracking.",
+    "intent": "delivery_delay_and_tracking",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "General Sunday delivery policy inquiry; answered directly."
+  },
+  {
+    "id": "conv_00065",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp Liquid soap bottle leaked inside the box and ruined the electronics (Samsung 55-inch OLED TV) that were shipped together in the same box!",
+    "historical_response": "We're so sorry for this shipping error! Please send us a direct message with photos of the damaged package and your order ID so we can issue a full replacement for all affected items: https://amzn.to/dm ^TB",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding damaged or incorrect item.",
+    "intent": "damaged_or_incorrect_item",
+    "gold_escalation": "ESCALATE_TO_HUMAN",
+    "gold_reason": "Cross-item hazardous spill damaging electronics; human damage assessment required."
+  },
+  {
+    "id": "conv_00501",
+    "brand": "AmazonHelp",
+    "customer_message": "@AmazonHelp I dropped off my return of Keurig Coffee Maker at Kohl's Drop-off on Tuesday. When should I expect the refund to appear on my credit card?",
+    "historical_response": "Once the return is received, refunds typically take 3 to 5 business days to process back to your original payment method. You can track refund progress under Your Orders: https://amzn.to/refund-status ^MK",
+    "conversation_context": "Customer reaching out to @AmazonHelp regarding return and refund status.",
+    "intent": "return_and_refund_status",
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_reason": "Standard banking processing timeline explanation."
+  }
+]
